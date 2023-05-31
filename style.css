@@ -189,6 +189,7 @@ button:hover {
 }
 
 @media (max-width : 650px) {
+  /* Section 1 start :  */
   #first_Profile {
     width: 1000px;
     height: 100vh;
@@ -231,5 +232,21 @@ button:hover {
 
   .Category1 {
     margin-top: 1%;
+  }
+
+
+  /*  Section 2 start :   */
+  #Thanks {
+    width: 100%;
+    height: 100vh;
+    border-radius: 0%;
+  }
+
+  .Category2 {
+    margin: 25% auto;
+  }
+
+  #Thanks > .Category2 > img {
+    margin-bottom: 5%;
   }
 }
